@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pspdfkit-labs:vangogh-0.2.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vangogh-0.2.0.aar/952dd827bcfbf2ea24f0b8bbc841cc72/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/vangogh-0.2.0.aar/952dd827bcfbf2ea24f0b8bbc841cc72/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pspdfkit-labs/vangogh/0.2.0/18c415b58cb10830a660e345c93adc203d9b6577/vangogh-0.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

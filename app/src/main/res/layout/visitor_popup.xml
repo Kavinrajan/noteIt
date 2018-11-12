@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/visitor_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_lite_white_bg"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/popup_window_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/edittext_padding"
+        android:background="@drawable/rounded_popup_border"
+        android:orientation="vertical"
+        android:padding="@dimen/edittext_padding"
+        android:scrollY="@dimen/edittext_padding"
+        android:visibility="visible"
+        android:weightSum="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="6dp"
+            android:padding="@dimen/layout_edittext_padding">
+
+            <TextView
+                android:id="@+id/popup_visitor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/visitor_pop_photo"
+                android:padding="@dimen/edittext_margin"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/edittext_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/popup_visitor_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/popup_visitor_name"
+                android:layout_below="@+id/popup_visitor_name"
+                android:padding="@dimen/edittext_margin"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/edittext_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/popup_view_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/visitor_pop_close"
+                android:layout_margin="@dimen/edittext_margin"
+                android:background="@drawable/rounded_popup_border_grey"
+                android:padding="2dp"
+                android:text="@string/view" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/visitor_pop_photo"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/ic_add_a_photo_color_24dp" />
+
+            <ImageView
+                android:id="@+id/visitor_pop_close"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_close_primary_dark_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popup_view_btn"
+                android:orientation="vertical"
+                android:padding="@dimen/edittext_padding">
+
+                <TextView
+                    android:id="@+id/popup_date_visit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Last discussions:" />
+
+                <TextView
+                    android:id="@+id/popup_problems"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:overScrollMode="ifContentScrolls"
+                    android:padding="@dimen/edittext_padding"
+                    android:text="ekrshhhhhhhhhhhhhhhhhhhhhdlfkhsdjl;gs;jldg;lsdfjgls;djfg;sldjfg;lsdfjgl;sdfjgl;sdjgl;sdfjg;lsdjg;lsdfjg;lsdjgfs;ljg;sdfjgs;jhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--<com.andremion.counterfab.CounterFab
+        android:id="@+id/float_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:fabSize="normal" />-->
+    <!-- <android.support.design.widget.FloatingActionButton
+         android:id="@+id/popup_float_btn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@android:drawable/ic_input_add"
+         android:layout_margin="@dimen/activity_vertical_margin"
+         app:layout_constraintTop_toBottomOf="@+id/popup_window_container"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintBottom_toBottomOf="parent"/>
+-->
+</android.support.constraint.ConstraintLayout>

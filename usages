@@ -1,0 +1,95 @@
+https://www.journaldev.com/14673/android-floating-widget
+Android Floating Widget Like Messenger Bubbles
+
+http://answerqueen.com/o2/q7vz38pko2
+Sqlite anko primary key error
+https://github.com/Kotlin/anko/wiki/Anko-SQLite#parsing-query-results
+
+Anko-SQLite... Kotlin all the way!
+https://blog.tlsantana.com/2018/03/06/anko-sqlite-kotlin-all-the-way/
+
+https://stackoverflow.com/questions/21814825/you-need-to-use-a-theme-appcompat-theme-or-descendant-with-this-activity
+https://stackoverflow.com/questions/8699257/popup-over-incoming-call-screen
+You need to use a Theme.AppCompat theme (or descendant) with this activity
+
+https://www.journaldev.com/9412/android-shared-preferences-example-tutorial
+Android Shared Preferences Example Tutorial
+
+Android BroadcastReceiver tutorial: detect outgoing phone call event
+https://looksok.wordpress.com/2013/04/13/android-broadcastreceiver-tutorial-detect-outgoing-phone-call-event/
+and incomming
+https://gist.github.com/ftvs/e61ccb039f511eb288ee
+
+Service
+https://stackoverflow.com/questions/16824341/keep-broadcast-receiver-running-after-application-is-closed
+
+Image capture
+https://stackoverflow.com/questions/15472798/take-multiple-images-with-camera-and-insert-into-multiple-diffefent-imageviews
+
+Encode and decode bitmap object in base64 string in Android
+https://stackoverflow.com/questions/9768611/encode-and-decode-bitmap-object-in-base64-string-in-android
+
+Images circular
+https://stackoverflow.com/questions/47977796/what-is-the-best-way-to-create-a-circular-imageview
+
+
+https://stackoverflow.com/questions/18367631/change-notification-layout
+notification layout
+
+TextArea in Android
+https://learnpainless.com/android/how-to-create-textarea-in-android
+
+Alert Dialog Builder
+https://code.tutsplus.com/tutorials/simplify-android-app-development-with-anko--cms-30005
+
+Get contact name
+https://stackoverflow.com/questions/6721134/get-contact-name-given-a-phone-number-in-android
+
+Creating reusable AlertDialogs with Custom Views in Anko
+https://medium.com/@moyinoluwa/creating-reusable-alertdialogs-with-custom-views-in-anko-539e26d0456d
+
+Android code: error message: Permission denial: opening provider com.android.providers.contacts. ContactsProvider2
+https://codedocu.com/Details?d=1715&a=12&f=236&l=0&v=d
+
+convert a Long value to date time and convert current time to Long kotlin?
+https://stackoverflow.com/questions/49551461/how-can-i-convert-a-long-value-to-date-time-and-convert-current-time-to-long-kot
+
+http://android2011dev.blogspot.com/2011/08/get-android-phone-call-historylog.htm
+Get Android phone call history/log programmatically
+
+https://medium.com/@lpereira/why-should-we-use-rxjava-on-android-c9066087c56c
+RxJava on Android for animation
+
+ /* fun createDatabase() {
+        visitorsDb.createTable("VISITOR", true,
+                "PHONE" to TEXT,
+                "DATE_SEL" to TEXT,
+                "NAME" to TEXT,
+                "PROBLEMS" to TEXT,
+                "DATE_CURR" to TEXT,
+                "ID" to INTEGER + PRIMARY_KEY)
+ } */
+
+ /* fun submitSuccess(mobile:String, date:String, name:String, problems:String) {
+        try {
+            // Add a row
+            visitorsDb.insert("VISITOR",
+                    "PHONE" to mobile,
+                    "DATE_SEL" to date,
+                    "NAME" to name,
+                    "PROBLEMS" to problems,
+                    "DATE_CURR" to date,
+                    "ID" to INTEGER + PRIMARY_KEY)
+
+                    java.lang.SecurityException: Permission Denial: opening provider com.android.providers.contacts.ContactsProvider2 from ProcessRecord{4acec5 21289:com.kavin.noteit.noteit/u0a170} (pid=21289, uid=10170) requires android.permission.READ_CONTACTS or android.permission.WRITE_CONTACTS
+
+        } catch (e: SQLiteException) {
+
+        } catch (e: Exception) {
+
+        }
+
+    } */
+    submitSuccess(mobile, date, name, problems)
+
+

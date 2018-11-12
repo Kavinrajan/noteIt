@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="toolbar_title_mar">2dp</dimen>
+
+    <dimen name="edittext_size">16sp</dimen>
+    <dimen name="edittext_margin">3sp</dimen>
+    <dimen name="edittext_padding">3sp</dimen>
+    <dimen name="layout_edittext_padding">4dp</dimen>
+    <dimen name="layout_edittext_margin">10dp</dimen>
+
+    <!-- Button -->
+    <dimen name="textAppearance">?android:textAppearanceLarge</dimen>
+    <dimen name="btn_marginTop">16dp</dimen>
+    <dimen name="btn_marginBottom">5dp</dimen>
+
+</resources>

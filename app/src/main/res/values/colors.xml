@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="grey">#4b000000</color>
+    <color name="greyLite">#1b000000</color>
+    <color name="white">#ffffff</color>
+    <color name="app_lite_white_bg">#e1e1e1</color>
+    <color name="colorPrimary">#e95454</color>
+    <color name="colorPrimaryDark">#c40a0a</color>
+    <color name="colorAccent">#e77676</color>
+    <color name="to_parent_Background">#eaeaea</color>
+    <color name="colorLink">#c19d31</color>
+    <!--<color name="colorPrimary">#f3d64684</color>
+    <color name="colorPrimaryDark">#c10258</color>
+    <color name="colorAccent">#ff92ba</color>-->
+
+    <color name="textColorPrimary">#FFFFFF</color>
+
+    <color name="windowBackground">#f5f5f5</color>
+    <color name="navigationBarColor">#000000</color>
+</resources>

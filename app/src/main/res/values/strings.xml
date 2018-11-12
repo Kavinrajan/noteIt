@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AaraTest</string>
+
+    <!-- Strings related to Visitor submit-->
+    <string name="submit">Submit</string>
+    <string name="view">View</string>
+    <string name="patient_name">Patient name</string>
+    <string name="mobile_no">Moile number</string>
+    <string name="problems">Problems</string>
+    <string name="select_date">Select DOB</string>
+
+    <string name="empty_mobile">* Enter mobile no </string>
+    <string name="invalid_mobile">* Enter valid mobile no </string>
+    <string name="empty_date">* Select DOB</string>
+    <string name="empty_name">* Enter name</string>
+    <string name="empty_problems">* Enter problems</string>
+
+    <!-- Strings related to view Visitor -->
+    <string name="view_visitor">Customer</string>
+
+</resources>
