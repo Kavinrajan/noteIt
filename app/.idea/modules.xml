@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../noteIt.iml" filepath="$PROJECT_DIR$/../noteIt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1748709674/noteit.iml" filepath="$PROJECT_DIR$/.idea/modules/-1748709674/noteit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/noteit.app.iml" filepath="$PROJECT_DIR$/.idea/modules/noteit.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/noteit.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/noteit.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/noteit.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/noteit.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/noteit.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/noteit.app.unitTest.iml" />
     </modules>
   </component>
 </project>
