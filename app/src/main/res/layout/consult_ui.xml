@@ -122,7 +122,7 @@
             android:layout_weight="0.25"
             android:layout_height="140dp"
             android:padding="@dimen/edittext_padding"
-            android:src="@drawable/ic_camera_alt_grey_24dp" />
+            app:srcCompat="@drawable/ic_camera_alt_grey_24dp" />
 
         <ImageView
             android:id="@+id/doc_img2"
@@ -130,7 +130,7 @@
             android:layout_weight="0.25"
             android:layout_height="140dp"
             android:padding="@dimen/edittext_padding"
-            android:src="@drawable/ic_camera_alt_grey_24dp" />
+            app:srcCompat="@drawable/ic_camera_alt_grey_24dp" />
 
         <ImageView
             android:id="@+id/doc_img3"
@@ -138,14 +138,14 @@
             android:layout_weight="0.25"
             android:layout_height="140dp"
             android:padding="@dimen/edittext_padding"
-            android:src="@drawable/ic_camera_alt_grey_24dp"/>
+            app:srcCompat="@drawable/ic_camera_alt_grey_24dp"/>
         <ImageView
             android:id="@+id/doc_img4"
             android:layout_width="0dp"
             android:layout_weight="0.25"
             android:layout_height="140dp"
             android:padding="@dimen/edittext_padding"
-            android:src="@drawable/ic_camera_alt_grey_24dp"/>
+            app:srcCompat="@drawable/ic_camera_alt_grey_24dp"/>
 
     </LinearLayout>
     <LinearLayout
